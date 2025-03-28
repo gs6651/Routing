@@ -1,21 +1,22 @@
-Multi-Protocol
-Can Transport different payloads
-L2 Payloads
-Ethernet
-FR
-ATM
-PPP
-HDLC
-L3
-IPv4
-IPv6
+
+### Multi-Protocol
+- Can Transport different payloads
+- L2 Payloads
+- Ethernet
+- FR
+- ATM
+- PPP
+- HDLC
+- L3
+- IPv4
+- IPv6
 
 
-Label-Switching
-Switches traffic b/w interfaces based on locally significant labels
-Somewhat similar as :
-FR's DLCI
-ATM's VPI/VPC
+### Label-Switching
+- Switches traffic b/w interfaces based on locally significant labels
+- Somewhat similar as :
+- FR's DLCI
+- ATM's VPI/VPC
 
 
 MPLS Label Header Format
