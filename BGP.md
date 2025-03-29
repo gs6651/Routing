@@ -237,4 +237,5 @@ BGP origin attribute – IGP (i)
 BGP weight – 32,768
 Multi Exit Discriminator (MED) – IGP metric
 
+![image](https://github.com/user-attachments/assets/d09865a2-4963-4a2c-a71c-987633616e8d)
 
