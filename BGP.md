@@ -7,33 +7,31 @@ IPv4 NLRI contains:
 		○ AS-Path
 		○ Etc.
 	• Next Hop
+	
 BGP Message Format:
-19 bytes -to- 4096 bytes
-19 bytes = Header
-16 bytes = Marker
-To authenticate incoming message
-OR
-To detect loss of synchronization b/w peers
-2 bytes = Length
-Indicates total length of BGP message
-1 byte = Type
-OPEN
-NOTIFICATION
-UPDATE
-KEEP-ALIVE
+- 19 bytes -to- 4096 bytes
+- 19 bytes = Header
+- 16 bytes = Marker
+- To authenticate incoming message OR To detect loss of synchronization b/w peers
+- 2 bytes = Length
+- Indicates total length of BGP message
+- 1 byte = Type
+- OPEN
+- NOTIFICATION
+- UPDATE
+- KEEP-ALIVE
 
 
 
 Messages Types:
-OPEN
-Version No. (3 or 4)
-AS No. (contains Local AS no.)
-Hold Time
-BGP Identifier (BGP Router-ID)
-Optional Parameters Length
-1 = YES (Carries Optional Parameters)
-0 = NO 
-Optional Parameters
+- OPEN: Version No. (3 or 4)
+- AS No. (contains Local AS no.)
+- Hold Time
+- BGP Identifier (BGP Router-ID)
+- Optional Parameters Length
+	- 1 = YES (Carries Optional Parameters)
+	- 0 = NO 
+- Optional Parameters
 Authentication
 Route-Refresh (C = Capability)
 Enhanced Route-Refresh
