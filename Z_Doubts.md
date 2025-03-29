@@ -1,6 +1,0 @@
-- How Authentication happens? What is a signed certificate?
-- How do controllers get valid certificates?
-- What exactly is root-certificate in edges?
-- What is the Zero Trust Model in SD WAN?
-- How does vEdge choose which WAN link to use to establish only a tunnel with vManage? First Come First Serve Basis? That’s it?
-- When using TLOC Extension, would all the 4 tunnels be activated at the same time? When traffic hits from LAN, which path it would take to go out? I guess Yes, but double check.
